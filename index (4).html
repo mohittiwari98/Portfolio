@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash R</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/hash_icon.png">
+    <!-- Google Fonts for Fira Code -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal">
+        <div class="terminal-header">
+            <div class="window-buttons">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="title">akashr.one</div>
+            <div class="theme-toggle">
+                <div class="bulb"></div>
+                <div class="chain"></div>
+            </div>
+        </div>
+        <div class="terminal-content">
+            <div class="page active" id="home">
+                <div>
+                    <pre class="ascii-art">
+ █████╗ ██╗  ██╗ █████╗ ███████╗██╗  ██╗    ██████╗ 
+██╔══██╗██║ ██╔╝██╔══██╗██╔════╝██║  ██║    ██╔══██╗
+███████║█████╔╝ ███████║███████╗███████║    ██████╔╝
+██╔══██║██╔═██╗ ██╔══██║╚════██║██╔══██║    ██╔══██╗
+██║  ██║██║  ██╗██║  ██║███████║██║  ██║    ██║  ██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝</pre>
+                    <p class="tagline">
+                        <div class="typewriter-container">
+                            <div class="line-wrapper">
+                                <span class="typewriter first-line">Self taught fullstack developer</span>
+                                <div class="cursor" id="cursor1"></div>
+                            </div>
+                            <div class="line-wrapper">
+                                <span class="typewriter second-line">love to learn new things everyday and I'm always looking for new challenges to tackle :)</span>
+                                <div class="cursor" id="cursor2"></div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="page" id="about">
+                <div class="about-tabs">
+                    <button class="about-tab active" data-tab="personal">personal</button>
+                    <button class="about-tab" data-tab="gear">gear</button>
+                    <button class="about-tab" data-tab="work">work</button>
+                </div>
+                <div class="about-content" id="personal-content">
+                    <div class="code-line">
+                        <span class="line-number">1</span>
+                        <span class="code-text"><span class="keyword">const</span> NAME = <span class="string">'Akash'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">2</span>
+                        <span class="code-text"><span class="keyword">const</span> ALIAS = <span class="string">'Arjun'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">3</span>
+                        <span class="code-text"></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">4</span>
+                        <span class="code-text"><span class="keyword">let</span> location = <span class="string">'Coimbatore, India'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">5</span>
+                        <span class="code-text"></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">6</span>
+                        <span class="code-text"><span class="keyword">const</span> hobbies = [</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">7</span>
+                        <span class="code-text">    <span class="string">'Poetry'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">8</span>
+                        <span class="code-text">    <span class="string">'Programming'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">9</span>
+                        <span class="code-text">    <span class="string">'Reading'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">10</span>
+                        <span class="code-text">    <span class="string">'Drawing'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">11</span>
+                        <span class="code-text">    <span class="string">'Music'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">12</span>
+                        <span class="code-text">    <span class="string">'Walking'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">13</span>
+                        <span class="code-text">]</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">14</span>
+                        <span class="code-text"></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">15</span>
+                        <span class="code-text"><span class="keyword">let</span> skills = [</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">16</span>
+                        <span class="code-text">    <span class="string">'JavaScript'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">17</span>
+                        <span class="code-text">    <span class="string">'React'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">18</span>
+                        <span class="code-text">    <span class="string">'Node.js'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">19</span>
+                        <span class="code-text">    <span class="string">'Python'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">20</span>
+                        <span class="code-text">    <span class="string">'AWS'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">21</span>
+                        <span class="code-text">]</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">22</span>
+                        <span class="code-text"></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">23</span>
+                        <span class="code-text"><span class="keyword">const</span> questions = {</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">24</span>
+                        <span class="code-text">    philosophical: [</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">25</span>
+                        <span class="code-text">        <span class="string">'Can AI truly be creative, or does it just remix existing patterns?'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">26</span>
+                        <span class="code-text">        <span class="string">'Is code more like art or engineering?'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">27</span>
+                        <span class="code-text">        <span class="string">'What happens when machines can write better code than humans?'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">28</span>
+                        <span class="code-text">    ],</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">29</span>
+                        <span class="code-text">    technical: [</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">30</span>
+                        <span class="code-text">        <span class="string">'Why do we still use JavaScript?'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">31</span>
+                        <span class="code-text">        <span class="string">'Is TypeScript the future or just a bandaid?'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">35</span>
+                        <span class="code-text">        <span class="string">'What if we could download skills like in The Matrix?'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">36</span>
+                        <span class="code-text">        <span class="string">'Is programming the closest thing to having superpowers?'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">37</span>
+                        <span class="code-text">        <span class="string">'Do developers dream in code?'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">38</span>
+                        <span class="code-text">    ]</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">39</span>
+                        <span class="code-text">}</span>
+                    </div>
+                </div>
+                <div class="about-content" id="gear-content" style="display: none;">
+                    <div class="code-line">
+                        <span class="line-number">1</span>
+                        <span class="code-text"><span class="keyword">const</span> battleStation = {</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">2</span>
+                        <span class="code-text">    machine: {</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">3</span>
+                        <span class="code-text">        model: <span class="string">'Lenovo IdeaPad Gaming 3 16IAH7'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">4</span>
+                        <span class="code-text">        cpu: <span class="string">'12th Gen Intel Core i7'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">5</span>
+                        <span class="code-text">        gpu: <span class="string">'NVIDIA RTX 3050Ti'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">6</span>
+                        <span class="code-text">        display: <span class="string">'16" WQHD+ (2560x1600)'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">7</span>
+                        <span class="code-text">        memory: <span class="string">'16GB DDR4'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">8</span>
+                        <span class="code-text">    },</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">9</span>
+                        <span class="code-text">    </span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">10</span>
+                        <span class="code-text">    operatingSystems: [</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">11</span>
+                        <span class="code-text">        {</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">12</span>
+                        <span class="code-text">            primary: <span class="string">'Windows 11'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">13</span>
+                        <span class="code-text">            purpose: <span class="string">'Development & Daily Driver'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">14</span>
+                        <span class="code-text">        },</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">15</span>
+                        <span class="code-text">        {</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">16</span>
+                        <span class="code-text">            secondary: <span class="string">'Kali Linux'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">17</span>
+                        <span class="code-text">            purpose: <span class="string">'Cybersecurity & Pentesting'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">18</span>
+                        <span class="code-text">        }</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">19</span>
+                        <span class="code-text">    ],</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">20</span>
+                        <span class="code-text">    </span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">21</span>
+                        <span class="code-text">    devTools: {</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">22</span>
+                        <span class="code-text">        aiPowered: [</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">23</span>
+                        <span class="code-text">            <span class="string">'Cursor AI'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">24</span>
+                        <span class="code-text">            <span class="string">'ChatGPT'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">25</span>
+                        <span class="code-text">            <span class="string">'Grok.ai'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">26</span>
+                        <span class="code-text">        ],</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">27</span>
+                        <span class="code-text">        editors: [</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">28</span>
+                        <span class="code-text">            <span class="string">'VS Code'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">29</span>
+                        <span class="code-text">            <span class="string">'PyCharm'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">30</span>
+                        <span class="code-text">        ],</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">31</span>
+                        <span class="code-text">        browsers: [</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">32</span>
+                        <span class="code-text">            <span class="string">'Brave'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">33</span>
+                        <span class="code-text">            <span class="string">'Chrome'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">34</span>
+                        <span class="code-text">        ],</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">35</span>
+                        <span class="code-text">        development: [</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">36</span>
+                        <span class="code-text">            <span class="string">'GitHub'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">37</span>
+                        <span class="code-text">            <span class="string">'XAMPP'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">38</span>
+                        <span class="code-text">        ]</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">39</span>
+                        <span class="code-text">    }</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">40</span>
+                        <span class="code-text">}</span>
+                    </div>
+                </div>
+                <div class="about-content" id="work-content" style="display: none;">
+                    <div class="code-line">
+                        <span class="line-number">1</span>
+                        <span class="code-text"><span class="keyword">const</span> currentStatus = {</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">2</span>
+                        <span class="code-text">    education: {</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">3</span>
+                        <span class="code-text">        degree: <span class="string">'B.Tech Artificial Intelligence and Data Science'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">4</span>
+                        <span class="code-text">        institution: <span class="string">'Sri Krishna College of Engineering and Technology'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">5</span>
+                        <span class="code-text">        period: <span class="string">'2024 - 2028'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">6</span>
+                        <span class="code-text">        status: <span class="string">'Pursuing'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">7</span>
+                        <span class="code-text">    },</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">8</span>
+                        <span class="code-text"></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">9</span>
+                        <span class="code-text">    interests: [</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">10</span>
+                        <span class="code-text">        <span class="string">'Artificial Intelligence'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">11</span>
+                        <span class="code-text">        <span class="string">'Data Science'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">12</span>
+                        <span class="code-text">        <span class="string">'Full Stack Development'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">13</span>
+                        <span class="code-text">        <span class="string">'Cybersecurity'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">14</span>
+                        <span class="code-text">    ],</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">15</span>
+                        <span class="code-text"></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">16</span>
+                        <span class="code-text">    aspirations: {</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">17</span>
+                        <span class="code-text">        shortTerm: [</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">18</span>
+                        <span class="code-text">            <span class="string">'Build innovative AI-powered applications'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">19</span>
+                        <span class="code-text">            <span class="string">'Contribute to open-source projects'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">20</span>
+                        <span class="code-text">            <span class="string">'Master full-stack development'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">21</span>
+                        <span class="code-text">        ],</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">22</span>
+                        <span class="code-text">        longTerm: [</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">23</span>
+                        <span class="code-text">            <span class="string">'Become an AI/ML expert'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">24</span>
+                        <span class="code-text">            <span class="string">'Create impactful tech solutions'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">25</span>
+                        <span class="code-text">            <span class="string">'Lead innovative tech projects'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">26</span>
+                        <span class="code-text">        ]</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">27</span>
+                        <span class="code-text">    },</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">28</span>
+                        <span class="code-text"></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">29</span>
+                        <span class="code-text">    status: {</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">30</span>
+                        <span class="code-text">        current: <span class="string">'Student Developer'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">31</span>
+                        <span class="code-text">        openTo: [</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">32</span>
+                        <span class="code-text">            <span class="string">'Internships'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">33</span>
+                        <span class="code-text">            <span class="string">'Collaborative Projects'</span>,</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">34</span>
+                        <span class="code-text">            <span class="string">'Learning Opportunities'</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">35</span>
+                        <span class="code-text">        ]</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">36</span>
+                        <span class="code-text">    }</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">37</span>
+                        <span class="code-text">}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="projects">
+                <div class="about-tabs">
+                    <button class="about-tab active" data-tab="web">web</button>
+                    <button class="about-tab" data-tab="ai">ai/ml</button>
+                </div>
+                <div class="about-content" id="web-content">
+                    <div class="projects-grid">
+                        <div class="project-card animate-card">
+                            <div class="project-title">Portfolio Website</div>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-preview">
+                                <video class="preview-video" autoplay loop muted playsinline>
+                                    <source src="videos/portfolio-preview.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div class="project-description">
+                                A terminal-themed personal portfolio website showcasing my projects, skills, and experiences.
+                                Features include:
+                                • Interactive terminal interface
+                                • Dark/Light theme toggle
+                                • Responsive design
+                                • Dynamic content loading
+                                • Eye-tracking animation
+                            </div>
+                            <div class="project-status">Active Development</div>
+                        </div>
+                        <div class="project-card animate-card">
+                            <div class="project-title">Interactive CV Website</div>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Three.js</span>
+                                <span class="tech-tag">GSAP</span>
+                            </div>
+                            <div class="project-preview">
+                                <div class="preview-placeholder">
+                                    <div class="terminal-animation">
+                                        <span class="line">Designing...</span>
+                                        <span class="line">Building...</span>
+                                        <span class="line">Coming soon...</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-description">
+                                An interactive 3D CV website with:
+                                • Animated timeline
+                                • 3D skill visualization
+                                • Interactive experience sections
+                                • PDF export functionality
+                                • Modern UI/UX design
+                            </div>
+                            <div class="project-status">Planning</div>
+                        </div>
+                        <div class="project-card animate-card future-card">
+                            <div class="project-title">Future Projects</div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Web3</span>
+                            </div>
+                            <div class="project-preview">
+                                <div class="future-animation">
+                                    <div class="code-rain"></div>
+                                    <div class="future-text">Coming Soon</div>
+                                </div>
+                            </div>
+                            <div class="project-description">
+                                Exploring future web projects in:
+                                • Web3 Applications
+                                • Interactive Experiences
+                                • Modern Frameworks
+                                • Experimental Features
+                                • Creative Interfaces
+                            </div>
+                            <div class="project-status">Ideation</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content" id="ai-content" style="display: none;">
+                    <div class="projects-grid">
+                        <div class="project-card animate-card future-card">
+                            <div class="project-title">Future AI/ML Projects</div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">TensorFlow</span>
+                                <span class="tech-tag">PyTorch</span>
+                                <span class="tech-tag">OpenCV</span>
+                            </div>
+                            <div class="project-preview">
+                                <div class="future-animation">
+                                    <div class="code-rain"></div>
+                                    <div class="future-text">AI Projects Coming Soon</div>
+                                </div>
+                            </div>
+                            <div class="project-description">
+                                Exploring upcoming AI/ML projects in:
+                                • Computer Vision
+                                • Natural Language Processing
+                                • Deep Learning
+                                • Machine Learning
+                                • Neural Networks
+                            </div>
+                            <div class="project-status">Planning</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="events">
+                <div class="about-tabs">
+                    <button class="about-tab active" data-tab="hackathons">hackathons</button>
+                    <button class="about-tab" data-tab="other-events">other events</button>
+                </div>
+                <div class="about-content" id="hackathons-content">
+                    <div class="events-grid">
+                        <div class="event-card featured">
+                            <div class="event-content">
+                                <div class="event-title">HackIndia 2025 Spark 2</div>
+                                <div class="event-details">type: Regional Hackathon</div>
+                                <div class="event-details">venue: Muthayammal Engineering College, Namakkal</div>
+                                <div class="event-details">team: 4 Members</div>
+                                <div class="event-details">project: Smart Traffic Management System</div>
+                                <div class="event-description">
+                                    Built an innovative traffic management solution featuring:
+                                    • Real-time congestion monitoring using AI
+                                    • Vehicle counting through CCTV analysis
+                                    • Instant accident detection & SOS alerts
+                                    • Smart route optimization for blocked roads
+                                </div>
+                                <div class="event-achievement">> Achievement: Top 10 Finalist 🏆</div>
+                                <div class="event-details">status: Completed</div>
+                            </div>
+                            <div class="event-image-container">
+                                <img src="images/HackIndia 2025 hackathon-main.jpg" alt="HackIndia 2025 Spark 2" class="event-image" id="mainHackathonImage">
+                                <div class="image-gallery">
+                                    <img src="images/HackIndia 2025 hackathon-main.jpg" class="gallery-thumb active" alt="Main Hackathon Image" onclick="updateMainImage(this, 'images/HackIndia 2025 hackathon-main.jpg')">
+                                    <img src="images/HackIndia 2025 hackathon-1.jpg" class="gallery-thumb" alt="Hackathon Image 1" onclick="updateMainImage(this, 'images/HackIndia 2025 hackathon-1.jpg')">
+                                    <img src="images/HackIndia 2025 hackathon-2.jpg" class="gallery-thumb" alt="Hackathon Image 2" onclick="updateMainImage(this, 'images/HackIndia 2025 hackathon-2.jpg')">
+                                    <img src="images/HackIndia 2025 hackathon-3.jpg" class="gallery-thumb" alt="Hackathon Image 3" onclick="updateMainImage(this, 'images/HackIndia 2025 hackathon-3.jpg')">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <div class="event-title">Future Hackathons</div>
+                            <div class="event-description">
+                                Actively looking for upcoming hackathons in:
+                                • AI/ML
+                                • Full Stack Development
+                                • Cybersecurity
+                            </div>
+                            <div class="event-status">status: Planning</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content" id="other-events-content" style="display: none;">
+                    <div class="events-grid">
+                        <div class="event-card">
+                            <div class="event-title">Future Events</div>
+                            <div class="event-description">
+                                Looking forward to participating in:
+                                • Technical Workshops
+                                • College Events
+                                • Industry Conferences
+                                • Coding Competitions
+                                • Developer Meetups
+                            </div>
+                            <div class="event-status">status: Planning</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="links">
+                <div class="links-container">
+                    <div class="links-section">
+                        <div class="terminal-header-text">> Connect_With_Me.exe</div>
+                        <div class="links-grid">
+                            <a href="https://github.com/Akash-rengaraj" target="_blank" rel="noopener noreferrer" class="social-card github">
+                                <div class="card-content">
+                                    <i class="fab fa-github"></i>
+                                    <span class="platform-name">GitHub</span>
+                                    <span class="username">@Akash-rengaraj</span>
+                                    <div class="card-footer">
+                                        <span class="status-dot"></span>
+                                        <span class="status-text">Open to Collaborate</span>
+                                        <span class="arrow">→</span>
+                                    </div>
+                                </div>
+                                <div class="card-bg"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/akash-rengaraj-b45177355?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" class="social-card linkedin">
+                                <div class="card-content">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span class="platform-name">LinkedIn</span>
+                                    <span class="username">Akash R</span>
+                                    <div class="card-footer">
+                                        <span class="status-dot"></span>
+                                        <span class="status-text">Let's Connect</span>
+                                        <span class="arrow">→</span>
+                                    </div>
+                                </div>
+                                <div class="card-bg"></div>
+                            </a>
+                            <a href="https://x.com/akash_020160?t=iHimmZ8ElcufH-mN2XzoPg&s=08" target="_blank" rel="noopener noreferrer" class="social-card twitter">
+                                <div class="card-content">
+                                    <i class="fab fa-x-twitter"></i>
+                                    <span class="platform-name">X (Twitter)</span>
+                                    <span class="username">@akash_rengaraj</span>
+                                    <div class="card-footer">
+                                        <span class="status-dot"></span>
+                                        <span class="status-text">Follow Me</span>
+                                        <span class="arrow">→</span>
+                                    </div>
+                                </div>
+                                <div class="card-bg"></div>
+                            </a>
+                            <a href="https://www.facebook.com/share/19HkrngpYe/" target="_blank" rel="noopener noreferrer" class="social-card facebook">
+                                <div class="card-content">
+                                    <i class="fab fa-facebook"></i>
+                                    <span class="platform-name">Facebook</span>
+                                    <span class="username">Akash R</span>
+                                    <div class="card-footer">
+                                        <span class="status-dot"></span>
+                                        <span class="status-text">Stay Updated</span>
+                                        <span class="arrow">→</span>
+                                    </div>
+                                </div>
+                                <div class="card-bg"></div>
+                            </a>
+                            <a href="https://www.reddit.com/user/akash_020160/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer" class="social-card reddit">
+                                <div class="card-content">
+                                    <i class="fab fa-reddit"></i>
+                                    <span class="platform-name">Reddit</span>
+                                    <span class="username">u/akash_020160</span>
+                                    <div class="card-footer">
+                                        <span class="status-dot"></span>
+                                        <span class="status-text">Join the Discussion</span>
+                                        <span class="arrow">→</span>
+                                    </div>
+                                </div>
+                                <div class="card-bg"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="links-section">
+                        <div class="terminal-header-text">> Contact_Information.sh</div>
+                        <div class="contact-grid">
+                            <div class="contact-card email">
+                                <a href="mailto:akashrengaraj2006@gmail.com" class="card-content">
+                                    <div class="icon-container">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <span class="contact-type">Email</span>
+                                        <span class="contact-value">akashrengaraj2007@gmail.com</span>
+                                        <div class="card-footer">
+                                            <span class="status-dot"></span>
+                                            <span class="status-text">Quick Response</span>
+                                            <span class="arrow">→</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="contact-card discord">
+                                <a href="https://discord.com/users/1281218820421320768" target="_blank" rel="noopener noreferrer" class="card-content">
+                                    <div class="icon-container">
+                                        <i class="fab fa-discord"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <span class="contact-type">Discord</span>
+                                        <span class="contact-value">akash_rengaraj</span>
+                                        <div class="card-footer">
+                                            <span class="status-dot"></span>
+                                            <span class="status-text">Always Online</span>
+                                            <span class="arrow">→</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="contact-card phone">
+                                <a href="tel:+919345386706" class="card-content">
+                                    <div class="icon-container">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <span class="contact-type">Phone</span>
+                                        <span class="contact-value">+91 93425 84561</span>
+                                        <div class="card-footer">
+                                            <span class="status-dot"></span>
+                                            <span class="status-text">Available</span>
+                                            <span class="arrow">→</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="for-recruiters">
+                <div class="about-content">
+                    <h2>For Recruiters</h2>
+                    <div class="about-tabs">
+                        <button class="about-tab active" data-tab="recruiters-about">About</button>
+                        <button class="about-tab" data-tab="certificates">Certificates</button>
+                    </div>
+                    <div class="tab-content" id="recruiters-about-content" class="active">
+                        <h3>About</h3>
+                        <div class="cv-section">
+                            <h4>Personal Information</h4>
+                            <p><strong>Name:</strong> Akash R</p>
+                            <p><strong>Email:</strong> akashrengaraj2007@gmail.com</p>
+                            <p><strong>Phone:</strong> 9342584561</p>
+                        </div>
+                        <div class="cv-section">
+                            <h4>Professional Summary</h4>
+                            <p>A brief summary of your professional background and career goals.</p>
+                        </div>
+                        <div class="cv-section">
+                            <h4>Work Experience</h4>
+                            <ul>
+                                <li>
+                                    <strong>Job Title at Company Name</strong> (Year - Year)
+                                    <ul>
+                                        <li>Key responsibility or achievement</li>
+                                        <li>Another responsibility or achievement</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cv-section">
+                            <h4>Education</h4>
+                            <ul>
+                                <li>
+                                    <strong>Degree Name</strong> - Institution Name (Year - Year)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cv-section">
+                            <h4>Skills</h4>
+                            <ul>
+                                <li>Skill 1</li>
+                                <li>Skill 2</li>
+                            </ul>
+                        </div>
+                        <div class="cv-section">
+                            <h4>Projects</h4>
+                            <ul>
+                                <li>
+                                    <strong>Project Name</strong>
+                                    <p>Brief description of the project and your role.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cv-section">
+                            <h4>Achievements</h4>
+                            <ul>
+                                <li>Achievement 1</li>
+                                <li>Achievement 2</li>
+                            </ul>
+                        </div>
+                        <div class="cv-section">
+                            <h4>Interests</h4>
+                            <p>Professional interests or areas of focus.</p>
+                        </div>
+                        <div class="cv-section">
+                            <h4>References</h4>
+                            <p>Available upon request.</p>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="certificates-content">
+                        <h3>Certificates</h3>
+                        <ul>
+                            <li>Certificate 1</li>
+                            <li>Certificate 2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="nav">
+                <a href="https://github.com/Akash-rengaraj" target="_blank" rel="noopener noreferrer">tmux</a>
+                <a href="#" data-page="home">home</a>
+                <a href="#" data-page="about">about</a>
+                <a href="#" data-page="home">resume</a>
+                <a href="#" data-page="projects">projects</a>
+                <a href="#" data-page="events">events</a>
+                <a href="#" data-page="links">links & contacts</a>
+                <a href="#" data-page="for-recruiters">for recruiters</a>
+            </div>
+            <div class="stats">
+                <div class="face-container">
+                    <div class="eyes">
+                        <div class="eye"><div class="pupil"></div></div>
+                        <div class="eye"><div class="pupil"></div></div>
+                    </div>
+                    <div class="smile"></div>
+                </div>
+                <div class="stats-text">
+                    <span>Views: <span id="viewCount">1</span></span>
+                    <span>Uptime: <span id="uptime">0:00</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Link to external JS file -->
+    <script src="scripts.js"></script>
+</body>
+</html>
